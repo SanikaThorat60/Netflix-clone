@@ -15,9 +15,10 @@ This project is a Netflix homepage clone built with pure HTML and CSS. The goal 
 📁 Project Structure
 
 netflix-clone/
-├── index.html         Main HTML file
-├── style.css          Styling and responsiveness
+index.html         Main HTML file
+style.css          Styling and responsiveness
 
 📷 Preview
 
-![image](https://github.com/user-attachments/assets/ac3b6bf8-d4d7-4dfa-9324-5d782b7d5cf2)
+![image](https://github.com/user-attachments/assets/8ee29530-4625-4ac1-b22e-0a7593377271)
+
