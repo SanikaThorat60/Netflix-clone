@@ -165,6 +165,7 @@ section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
+    padding: 34px 0;
 }
 
 section.first>div :nth-child(1) {
@@ -211,40 +212,26 @@ section.first>div :nth-child(2) {
     color: white;
     text-align: center;
     font-family: 'Martel Sans', sans-serif;
-}
-
-.footer,
-.footer a {
-    color: #999;
-    font-size: 0.9rem;
-    padding: 25px;
-    margin: 10px;
-}
-
-.footer p {
     margin: 10px;
     padding: 20px;
-    text-align: left;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
 }
 
-.footer .footer-cols {
+footer .questions {
+    padding: 34px 0;
+}
+
+.footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
-    padding-left: 50px;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
 }
 
-.footer li {
-    line-height: 1.9;
-    align-items: center;
-}
-
-h1 {
-    font-size: 3rem;
-}
 
 @media screen and (max-width: 1300px) {
 
@@ -289,16 +276,15 @@ h1 {
         font-size: 32px;
     }
 
-    footer {
+   footer {
         max-width: 90vw;
         padding: 75px 0;
     }
 
-    .footer-cols {
+    .footer-item{
         align-items: center;
     }
-
-
+ 
 }
 
 
@@ -309,5 +295,15 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 25px;
+    }
+    .footer a {
+    font-size: 14px;
+    color: white;
+    }
+
+    .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
     }
 }
