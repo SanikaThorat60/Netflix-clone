@@ -19,4 +19,5 @@ netflix-clone/
 ├── style.css          Styling and responsiveness
 
 📷 Preview
+
 ![image](https://github.com/user-attachments/assets/ac3b6bf8-d4d7-4dfa-9324-5d782b7d5cf2)
