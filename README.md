@@ -2,6 +2,7 @@
 This project is a Netflix homepage clone built with pure HTML and CSS. The goal is to replicate the visual layout and responsiveness of Netflix's official landing page without using any JavaScript or frameworks.
 
 ✨ Key Features
+
 🔹 Fully responsive design (desktop, tablet, and mobile)
 
 🔹 Built with HTML and CSS only
@@ -14,7 +15,7 @@ This project is a Netflix homepage clone built with pure HTML and CSS. The goal 
 
 📁 Project Structure
 
-netflix-clone/
+netflix-clone
 index.html         Main HTML file
 style.css          Styling and responsiveness
 
